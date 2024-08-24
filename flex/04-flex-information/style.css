@@ -7,6 +7,35 @@ img {
   height: 100px;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 52px;
+
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+
+}
+
+div div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.text {
+  text-align: center;
+}
 .title {
   font-size: 36px;
   font-weight: 900;
